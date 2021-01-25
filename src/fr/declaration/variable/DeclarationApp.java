@@ -25,10 +25,12 @@ public class DeclarationApp {
 		char uniqueCharactere = 'a';
 		boolean verification = true;
 		String test = "Test test";
+		int abc = 053;
 		
 		String randomString = "Voici le résultat d’un calcul :\n1+5=6";
 		
 		System.out.println(randomString);
+		System.out.println(abc);
 	
 
 	}
