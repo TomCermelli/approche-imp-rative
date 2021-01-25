@@ -17,15 +17,16 @@ public class SommeDeTableauxDiff {
 		
 		int[] array = {1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4} ;
 		int[] array2 = {-1, 12, 17, 14, 5, -9, 0, 18 } ;
-		int somme = 0;
+		int[] sommeTab = new int [17];
 		
-		for(int i=0; i<array.length; i++) {
-			somme += array[i];
-		}
 		
-		for(int i=0; i<array2.length; i++) {
-			somme += array2[i];
+		for(int i=0; i<sommeTab.length; i++) {
+			sommeTab[i] = array[i];
+			if(i<array2.length) {
+				sommeTab[i] = array[i] + array2[i];
+			}
+		
+			System.out.print(sommeTab[i] + " ");
 		}
-		System.out.println("La sommes des 2 tableaux est égal à " + somme);
 	}
 }
