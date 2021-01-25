@@ -15,7 +15,7 @@ public class DeclarationApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		byte postal = 92;
+		/*byte postal = 92;
 		short street = 350;
 		int id = 55050;
 		id = id + street ;
@@ -31,7 +31,7 @@ public class DeclarationApp {
 		
 		System.out.println(randomString);
 		System.out.println(abc);
-	
+	*/
 
 	}
 
