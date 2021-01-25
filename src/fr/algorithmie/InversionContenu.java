@@ -29,8 +29,6 @@ public class InversionContenu {
 			j--;
 			
 		}
-		
-		
 	}
 
 }
