@@ -14,10 +14,10 @@ public class FirstLast {
 	 */
 	public static void main(String[] args) {
 		
-		int[] array = {6, 6};
+		int[] array = {6, 7};
 		boolean verif = true;
 		
-		if(array.length>=1 && (array[0] == 6 && array[array.length-1] == 6)) {
+		if(array.length>=1 && array[0] == array[array.length-1]) {
 			verif = true;
 		}
 		else {
